@@ -102,11 +102,11 @@ else if (option == "4")
         if (restDivision == "0")
         {
             Console.WriteLine($"o valor do resto da divisão é {valorDiv1 % valorDiv2}.");
-            Console.ReadLine();
+            Console.ReadLine( );
         } 
         else
         {
-            Console.WriteLine("Fim do Programa.");
+            Console.WriteLine("Fim do Programa. ");
             Console.ReadLine();
         }  
     }
