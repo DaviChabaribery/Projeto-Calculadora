@@ -25,6 +25,8 @@ if (option == "1")
     Console.ReadLine();
 
     Console.WriteLine("Fim do Programa.");
+
+    Console.ReadLine();
 }
 
 else if (option == "2")
@@ -46,7 +48,12 @@ else if (option == "2")
     }
     
      Console.WriteLine("Fim do Programa.");
+
+     Console.ReadLine();
 }
+
+
+
 else if(option == "3")
 {
     double valorMult1, valorMult2, totalMult;
@@ -62,6 +69,8 @@ else if(option == "3")
     Console.WriteLine($"O valor de {valorMult1} multiplicado por {valorMult2} = {totalMult}");
 
     Console.WriteLine("Fim do Programa.");
+
+    Console.ReadLine();
 }
 
 else if (option == "4")
@@ -74,9 +83,12 @@ else if (option == "4")
     Console.Write("Digite o divisor para fazer o divisor e pressione enter: ");
     valorDiv2 = double.Parse(Console.ReadLine());
 
+    Console.ReadLine();
+
     if (valorDiv2 == 0)
     {
         Console.WriteLine("Não é possivel dividir por 0");
+        Console.ReadLine();
     }
     else
     {
@@ -90,10 +102,12 @@ else if (option == "4")
         if (restDivision == "0")
         {
             Console.WriteLine($"o valor do resto da divisão é {valorDiv1 % valorDiv2}.");
+            Console.ReadLine();
         } 
         else
         {
             Console.WriteLine("Fim do Programa.");
+            Console.ReadLine();
         }  
     }
 }
