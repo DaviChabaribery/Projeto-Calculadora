@@ -11,7 +11,6 @@ string option = Console.ReadLine();
 switch (option)
 {
     case "1":
-
         double valorSum1, valorSum2, total;
 
         Console.Write("\n\nDigite o primeiro valor para a soma e pressione enter: ");
@@ -23,14 +22,11 @@ switch (option)
         total = valorSum1 + valorSum2;
 
         Console.WriteLine($"\n\nO resultado da soma de {valorSum1} + {valorSum2} = {total}.");
-
         Console.WriteLine("Fim do Programa.");
-
         Console.ReadLine();
         break;
 
     case "2":
-
         double valorSub1, valorSub2, totalSub;
 
         Console.Write("\n\nDigite o primeiro valor para a subtração e pressioner enter: ");
@@ -48,11 +44,9 @@ switch (option)
 
         Console.WriteLine("Fim do Programa.");
         Console.ReadLine();
-
         break;
 
     case "3":
-
         double valorMult1, valorMult2, totalMult;
 
         Console.Write("\n\nDigite o primeiro valor para fazer a multiplicação e pressione enter: ");
@@ -64,14 +58,11 @@ switch (option)
         totalMult = valorMult1 * valorMult2;
 
         Console.WriteLine($"\n\nO valor de {valorMult1} multiplicado por {valorMult2} = {totalMult}");
-
         Console.WriteLine("Fim do Programa.");
-
         Console.ReadLine();
         break;
 
     case "4":
-
         double valorDiv1, valorDiv2, totalDiv;
 
         Console.Write("\n\nDigite o dividendo para fazer a divisão e pressione enter: ");
@@ -104,10 +95,7 @@ switch (option)
                 Console.WriteLine("\nFim do Programa. ");
                 Console.ReadLine();
             }
-
-
         }
-
     break;
 
     default:
